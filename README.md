@@ -1,17 +1,17 @@
 # Animated CS:GO ClanTag without cheats, it's LEGAL :)
 
-How it's working?
-• Python script clicks with delay f6 when you are in cs:go
-• Config for cs:go to make animation with one bind.
+### How it's working?
+1. Python script clicks with delay ```f6``` when you are in cs:go
+2. Config for cs:go to make animation with one bind.
 
-How to use?
+### How to use?
 1. Join to Steam groups
-2. put config in ../csgo/cfg/
-3. run main.py
-4. open cs:go
-5. write in console > exec anim_name (in example > exec anim_gamesense)
-6. go to the map and press f7 until you hear a sound
-7. when exiting the map, press f7 until the sound to turn off the script
+2. put config in ```./csgo/cfg/```
+3. run ```main.py```
+4. open ```cs:go```
+5. write in console > ```exec anim_name``` (in example > ```exec anim_gamesense```)
+6. go to the map and press ```f7``` until you hear a sound
+7. when exiting the map, press ```f7``` until the sound to turn off the script
 8. Good luck, have fun <3
 
 ## Gamesense animation Groups
@@ -34,7 +34,7 @@ How to use?
 
 ## TeamPro animation Groups
 1. https://steamcommunity.com/groups/TeamPro-Community-1
-2. htps://steamcommunity.com/groups/TeamPro-Community-11
+2. https://steamcommunity.com/groups/TeamPro-Community-11
 3. https://steamcommunity.com/groups/TeamPro-Community-12 
 4. https://steamcommunity.com/groups/TeamPro-Community-13
 5. https://steamcommunity.com/groups/TeamPro-Community-14
