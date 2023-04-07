@@ -33,7 +33,7 @@ How to use?
 
 ## TeamPro animation Groups
 1. https://steamcommunity.com/groups/TeamPro-Community-1
-2. htps://steamcommunity.com/groups/TeamPro-Community-11
+2. https://steamcommunity.com/groups/TeamPro-Community-11
 3. https://steamcommunity.com/groups/TeamPro-Community-12 
 4. https://steamcommunity.com/groups/TeamPro-Community-13
 5. https://steamcommunity.com/groups/TeamPro-Community-14
