@@ -6,7 +6,7 @@
 
 ### How to use?
 1. Join to Steam groups
-2. put config in ```./csgo/cfg/```
+2. put config to ```./csgo/cfg/```
 3. run ```main.py```
 4. open ```cs:go```
 5. write in console ```exec anim_name``` (example ```exec anim_gamesense```)
