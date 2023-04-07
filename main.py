@@ -55,7 +55,7 @@ def main():
                 winsound.Beep(800, 250)
                 while not in_csgo():
                     pass
-                synchronized_start() # <-------< to make +- synchron start with friend
+                # synchronized_start() # <-------< to make +- synchron start with friend
             else:
                 print('OFF')
                 winsound.Beep(600, 250)
