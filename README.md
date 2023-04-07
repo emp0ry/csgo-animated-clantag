@@ -9,7 +9,7 @@
 2. put config in ```./csgo/cfg/```
 3. run ```main.py```
 4. open ```cs:go```
-5. write in console > ```exec anim_name``` (in example > ```exec anim_gamesense```)
+5. write in console ```exec anim_name``` (example ```exec anim_gamesense```)
 6. go to the map and press ```f7``` until you hear a sound
 7. when exiting the map, press ```f7``` until the sound to turn off the script
 8. Good luck, have fun <3
