@@ -1,7 +1,8 @@
 # Animated CS:GO ClanTag without cheats, it's LEGAL :)
 
 How it's working?
-• python script that clicks with delay f6 and cs:go config for bind animation.
+• Python script clicks with delay f6 when you are in cs:go
+• Config for cs:go to make animation with one bind.
 
 How to use?
 1. Join to Steam groups
@@ -33,7 +34,7 @@ How to use?
 
 ## TeamPro animation Groups
 1. https://steamcommunity.com/groups/TeamPro-Community-1
-2. https://steamcommunity.com/groups/TeamPro-Community-11
+2. htps://steamcommunity.com/groups/TeamPro-Community-11
 3. https://steamcommunity.com/groups/TeamPro-Community-12 
 4. https://steamcommunity.com/groups/TeamPro-Community-13
 5. https://steamcommunity.com/groups/TeamPro-Community-14
