@@ -1,7 +1,7 @@
 # Animated CS:GO ClanTag without cheats, it's LEGAL :)
 
 ### How it's working?
-Python script clicks with delay ```f6``` when you are in cs:go <br />
+Python script clicks with delay ```f6``` when you are in cs:go <br/>
 Config for cs:go to make animation with one bind.
 
 ### How to use?
