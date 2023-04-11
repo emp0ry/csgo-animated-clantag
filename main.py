@@ -24,6 +24,7 @@ except: os.system("pip install psutil"); import psutil
 
 # detect if you in csgo
 def in_csgo():
+    time.sleep(0.1)
     try:
         hwnd = win32gui.GetForegroundWindow()
         pid = win32process.GetWindowThreadProcessId(hwnd)[1]
@@ -36,19 +37,19 @@ def main():
     switch, timer = False, 0
 
     while True:
-        if keyboard.is_pressed('f7') and time.time() - timer > 2:
-            switch = not switch
+        if in_csgo():
+            if time.time() - timer > 2 and keyboard.is_pressed('f7'):
+                switch = not switch
+                if switch:
+                    print('ON')
+                    winsound.Beep(800, 250)
+                else:
+                    print('OFF')
+                    winsound.Beep(600, 250)
+                timer = time.time()
             if switch:
-                print('ON')
-                winsound.Beep(800, 250)
-            else:
-                print('OFF')
-                winsound.Beep(600, 250)
-            timer = time.time()
-        if in_csgo() and switch:
-            keyboard.press_and_release('f6')
-            time.sleep(DELAY - 0.1)
-        time.sleep(0.1)
+                keyboard.press_and_release('f6')
+                time.sleep(DELAY - 0.1)
 
 if __name__ == "__main__":
     sys.setrecursionlimit(10000) # without it the code crashes
