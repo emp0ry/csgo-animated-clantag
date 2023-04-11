@@ -33,10 +33,10 @@ def in_csgo():
         in_csgo()
 
 def main():
-    switch = False
+    switch, timer = False, 0
 
     while True:
-        if keyboard.is_pressed('f7'):
+        if keyboard.is_pressed('f7') and time.time() - timer > 2:
             switch = not switch
             if switch:
                 print('ON')
@@ -44,6 +44,7 @@ def main():
             else:
                 print('OFF')
                 winsound.Beep(600, 250)
+            timer = time.time()
         if in_csgo() and switch:
             keyboard.press_and_release('f6')
             time.sleep(DELAY - 0.1)
