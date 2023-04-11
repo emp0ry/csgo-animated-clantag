@@ -12,8 +12,8 @@ Config for cs:go to make animation with one bind.
 5. write in console ```exec anim_name``` (example ```exec anim_gamesense```)
 6. go to the map and press ```f7``` until you hear a sound
 7. when exiting the map, press ```f7``` until the sound to turn off the script
-8. Good luck, have fun <3
-9. **PS: For first time run 3-4 time main.py**
+8. Good luck, have fun <3 <br/>
+**PS: For first time run 3-4 time main.py**
 
 ## Gamesense animation Groups
  1. https://steamcommunity.com/groups/ga_-
