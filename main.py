@@ -39,7 +39,7 @@ def press_key():
             pass
         keyboard.press_and_release('f6')
 
-# 0-10 second making input lag
+# 0-10 second making input lag <-- buged
 def synchronized_start():
     while int(time.time() % 10) != 0:
         pass
