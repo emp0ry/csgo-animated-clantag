@@ -5,6 +5,8 @@ print('''
 █▄▄ █▄█   █▀▀ █▀▄▀█ █▀█ █▀█ █▀█ █▄█
 █▄█ ░█░   ██▄ █░▀░█ █▀▀ █▄█ █▀▄ ░█░''')
 
+DELAY = 0.35 # it's a time between click f6
+
 import os
 import sys
 import time
@@ -30,20 +32,6 @@ def in_csgo():
     except:
         in_csgo()
 
-# press f6 if you in csgo
-def press_key():
-    if in_csgo():
-        keyboard.press_and_release('f6')
-    else:
-        while not in_csgo():
-            pass
-        keyboard.press_and_release('f6')
-
-# 0-10 second making input lag <-- buged
-def synchronized_start():
-    while int(time.time() % 10) != 0:
-        pass
-
 def main():
     switch = False
 
@@ -53,20 +41,14 @@ def main():
             if switch:
                 print('ON')
                 winsound.Beep(800, 250)
-                while not in_csgo():
-                    pass
-                # synchronized_start() # <-------< to make +- synchron start with friend
             else:
                 print('OFF')
                 winsound.Beep(600, 250)
-            time.sleep(2)
-
-        if switch:
-            press_key()
-            time.sleep(0.35)
-        else:
-            time.sleep(0.1)
+        if in_csgo() and switch:
+            keyboard.press_and_release('f6')
+            time.sleep(DELAY - 0.1)
+        time.sleep(0.1)
 
 if __name__ == "__main__":
-    sys.setrecursionlimit(10000)
+    sys.setrecursionlimit(10000) # without it the code crashes
     main()
