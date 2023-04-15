@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 
 try: import psutil
@@ -59,6 +60,13 @@ def when_pressed(event):
             time.sleep(0.1)
 
 if __name__ == '__main__':
+    print('''
+    ▄▀█ █▄░█ █ █▀▄▀█ ▄▀█ ▀█▀ █▀▀ █▀▄   █▀▀ █░░ ▄▀█ █▄░█ ▀█▀ ▄▀█ █▀▀
+    █▀█ █░▀█ █ █░▀░█ █▀█ ░█░ ██▄ █▄▀   █▄▄ █▄▄ █▀█ █░▀█ ░█░ █▀█ █▄█
+
+    █▄▄ █▄█   █▀▀ █▀▄▀█ █▀█ █▀█ █▀█ █▄█
+    █▄█ ░█░   ██▄ █░▀░█ █▀▀ █▄█ █▀▄ ░█░''')
+    sys.setrecursionlimit(10000) # without it the code crashes
     timer = 0
     with mp.Manager() as manager:
         event = manager.Event()
