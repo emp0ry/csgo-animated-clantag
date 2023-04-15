@@ -39,6 +39,11 @@ def on_press(key, event):
                 winsound.Beep(600, 250)
                 print('OFF')
                 event.clear()
+                keyboard = kb.Controller()
+                time.sleep(0.5)
+                keyboard.press(BIND)
+                time.sleep(0.2)
+                keyboard.release(BIND)
             else:
                 winsound.Beep(800, 250)
                 print('ON')
