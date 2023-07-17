@@ -1,5 +1,3 @@
-import os
-import sys
 import time
 import ctypes
 import telnetlib
@@ -261,7 +259,8 @@ def when_pressed(event1, event2):
                     time.sleep(DELAY)
 
 if __name__ == '__main__':
-    os.system('cls')
+    ctypes.windll.msvcrt.system(ctypes.c_char_p('cls'.encode())) # clear console
+
     print('''
 █▀▀ █░░ ▄▀█ █▄░█ ▀█▀ ▄▀█ █▀▀
 █▄▄ █▄▄ █▀█ █░▀█ ░█░ █▀█ █▄█
@@ -269,9 +268,9 @@ if __name__ == '__main__':
 █▄▄ █▄█   █▀▀ █▀▄▀█ █▀█ █▀█ █▀█ █▄█
 █▄█ ░█░   ██▄ █░▀░█ █▀▀ █▄█ █▀▄ ░█░
 https://github.com/emp0ry/''')
-    print('github - https://github.com/emp0ry/')
+
     mp.freeze_support()
-    sys.setrecursionlimit(100000) # without this, the code crashes after a while
+    ctypes.pythonapi.Py_SetRecursionLimit(100000) # without this, the code crashes after a while
     timer1, timer2 = 0, 0
     with mp.Manager() as manager:
         event1 = manager.Event()
