@@ -5,7 +5,7 @@ This is not a cheat, this just utilises the -netconport launch option which allo
 ## How it's working?
 Writes cl_clanid to the console, changing the group id one by one
 
-## setup for main.py
+## How to use?
 - join to all steam groups
 - install the pynput: `pip install pynput`
 - add the launch option `-netconport 2121` to csgo
