@@ -7,7 +7,7 @@ Writes cl_clanid to the console, changing the group id one by one
 
 ## setup for main.py
 - join to all steam groups
-- install the requirements: `pip install -r requirements.txt`
+- install the pynput: `pip install pynput`
 - add the launch option `-netconport 2121` to csgo
 - click to enable animation `f7`
 - change animation to another click `f6`
