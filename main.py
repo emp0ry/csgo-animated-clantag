@@ -267,7 +267,8 @@ if __name__ == '__main__':
 █▄▄ █▄▄ █▀█ █░▀█ ░█░ █▀█ █▄█
 
 █▄▄ █▄█   █▀▀ █▀▄▀█ █▀█ █▀█ █▀█ █▄█
-█▄█ ░█░   ██▄ █░▀░█ █▀▀ █▄█ █▀▄ ░█░''')
+█▄█ ░█░   ██▄ █░▀░█ █▀▀ █▄█ █▀▄ ░█░
+https://github.com/emp0ry/''')
     print('github - https://github.com/emp0ry/')
     mp.freeze_support()
     sys.setrecursionlimit(100000) # without this, the code crashes after a while
