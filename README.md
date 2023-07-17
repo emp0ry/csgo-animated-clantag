@@ -1,19 +1,16 @@
-# Animated CS:GO ClanTag without cheats, it's LEGAL :)
+# CS:GO Animated ClanTag without Cheats!
 
-### How it's working?
-Python script clicks with delay ```f6``` when you are in cs:go <br/>
-Config for cs:go to make animation with one bind.
+This is not a cheat, this just utilises the -netconport launch option which allows for applications to connect to the game's console and read and send console commands.
 
-### How to use?
-1. Join to Steam groups
-2. put config to ```./csgo/cfg/```
-3. run ```main.py```
-4. open ```cs:go```
-5. write in console ```exec anim_name``` (example ```exec anim_gamesense```)
-6. go to the map and press ```f7``` to turn on the script
-7. when exiting the map, press ```f7``` to turn off the script
-8. Good luck, have fun <3 <br/>
-<h4>PS: For first time run 3-4 time main.py and you can turn on/off script only in cs:go<h4/>
+## How it's working?
+Writes cl_clanid to the console, changing the group id one by one
+
+## setup for main.py
+- join to all steam groups
+- install the requirements: `pip install -r requirements.txt`
+- add the launch option `-netconport 2121` to csgo
+- click to enable animation `f7`
+- change animation to another click `f6`
 
 ## Gamesense animation Groups
  1. https://steamcommunity.com/groups/ga_-
@@ -52,6 +49,3 @@ Config for cs:go to make animation with one bind.
 16. https://steamcommunity.com/groups/TeamPro-Community-25
 17. https://steamcommunity.com/groups/TeamPro-Community-26
 18. https://steamcommunity.com/groups/TeamPro-Community-28
-
-## My Discord Server
-https://discord.gg/9rNz346PDY
